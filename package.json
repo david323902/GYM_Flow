@@ -1,11 +1,11 @@
 {
   "name": "gymflow-backend",
   "version": "1.0.0",
-  "description": "Backend para sistema de gestión de gimnasio",
+  "description": "Backend para sistema de gesti\u00f3n de gimnasio",
   "main": "server/index.js",
   "scripts": {
-    "dev": "nodemon server/index.js",
-    "start": "node server/index.js",
+    "dev": "node api.js && nodemon server/index.js",
+    "start": "node api.js && node server/index.js",
     "create-users": "node server/scripts/crearUsuariosIniciales.js",
     "admin:reset": "node scripts/resetAdmin.js"
   },
